@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.header {
+  background-color: magenta;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 5px;
+  text-align: center;
+}
+.mainContent {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+}
+.sectionTop {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.sectionBottom {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.media {
+  display: flex;
+  flex-direction: column;
+  justify-content: column;
+}
+.media img {
+  margin: 10px;
+}
+.words {
+}
